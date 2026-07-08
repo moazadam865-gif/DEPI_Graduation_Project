@@ -38,3 +38,23 @@ We deployed 8 different machine learning algorithms to address critical business
 ```bash
 git clone [https://github.com/moazadam865-gif/DEPI_Graduation_Project.git](https://github.com/moazadam865-gif/DEPI_Graduation_Project.git)
 cd DEPI_Graduation_Project
+
+##2. Install dependencies
+pip install pandas numpy scikit-learn xgboost plotly streamlit fastapi uvicorn joblib
+
+##3. Run the ML Dashboard (Frontend Command Center)
+python -m streamlit run app.py
+
+##4. Run the API (Backend Simulator)
+python -m streamlit run app.py
+
+##Once running, the interactive API documentation (Swagger UI) will be available at http://127.0.0.1:8000/docs
+
+##
+
+
+python -m uvicorn api:app --reload
+
+
+
+
